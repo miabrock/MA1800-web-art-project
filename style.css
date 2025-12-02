@@ -3,16 +3,43 @@ body {
   color: darkslateblue;
   margin: 50px;
   text-align: center;
-  font-size: 20px
- 
+  font-size: 20px;
 }
+
 body {
-background: #b19cd9;
+  background: #b19cd9;
 }
+
 a {
   color: darkslateblue;
   background-color: rgb(213, 187, 254);
   font-weight: bold;
   font-size: 40px;
   border-radius: 10%;
+}
+
+.image-layer {
+  position: fixed;         
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;    
+  z-index: -1;             
+  overflow: hidden;       
+}
+
+.bouncing-image {
+  position: absolute;
+  width: 500px;            
+  animation: image-bounce 10s linear infinite;
+  opacity: 0.8;            
+}
+
+@keyframes image-bounce {
+  0%   { top: 0; left: 0; }
+  25%  { top: 0; left: calc(75vw - 95px); }
+  50%  { top: calc(75vh - 95px); left: calc(75vw - 95px); }
+  75%  { top: calc(75vh - 95px); left: 0; }
+  100% { top: 0; left: 0; }
 }
