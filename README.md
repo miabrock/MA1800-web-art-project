@@ -24,3 +24,18 @@ Overall though I think that in the time given I have managed to create a good ex
 
 Assets sourced online:
 
+Audio:
+creepy-music.wav: freesound.org
+distorted-piano.mp3: freesound.org
+happy-classical.mp3: freesound.org
+
+Gif:
+loopedswirl.gif: pixabay.com
+creepy forest.gif: giphy.com
+moving clouds.gif: giphy.com
+
+Images:
+blue door.png: AI
+letter that rewrites itself.png: AI
+red door.png: AI
+orb of light.png: AI
