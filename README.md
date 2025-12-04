@@ -1,4 +1,5 @@
-https://github.com/miabrock/MA1800-web-art-project.git
+
+https://miabrock.github.io/MA1800-web-art-project/
 
 Description of my project:
 My project is web artwork which is in the style of a choose your own adventure story.​ As you go through my website you have different options to click which will give you a different outcome.​ 
